@@ -1,0 +1,13 @@
+path: data_refined
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: sleep
+  1: sit
+  2: lying
+  3: shake
+  4: stand_up
+  5: vomit
+  6: eat
+  7: fall

@@ -1,0 +1,153 @@
+{
+  "source_config": "config.yaml",
+  "output_root": "data_refined",
+  "output_config": "config_refined.yaml",
+  "source_unique_images": 15,
+  "duplicate_entries_removed": 15,
+  "patient_action_overlaps_detected": 30,
+  "dropped_boxes_by_class": {
+    "patient": 37
+  },
+  "prepared_class_names": {
+    "0": "sleep",
+    "1": "sit",
+    "2": "lying",
+    "3": "shake",
+    "4": "stand_up",
+    "5": "vomit",
+    "6": "eat",
+    "7": "fall"
+  },
+  "prepared_class_box_counts": {
+    "sleep": 3,
+    "sit": 8,
+    "lying": 12,
+    "shake": 1,
+    "stand_up": 3,
+    "vomit": 1,
+    "eat": 1,
+    "fall": 1
+  },
+  "images_per_split": {
+    "val": 2,
+    "train": 11,
+    "test": 2
+  },
+  "boxes_per_split": {
+    "val": 4,
+    "train": 24,
+    "test": 2
+  },
+  "empty_labels_per_split": {
+    "val": 1
+  },
+  "split_class_box_counts": {
+    "val": {
+      "sit": 1,
+      "lying": 3
+    },
+    "train": {
+      "sleep": 3,
+      "sit": 6,
+      "lying": 9,
+      "shake": 1,
+      "stand_up": 2,
+      "vomit": 1,
+      "eat": 1,
+      "fall": 1
+    },
+    "test": {
+      "sit": 1,
+      "stand_up": 1
+    }
+  },
+  "empty_label_items": {
+    "val": [
+      "benh-tam-than-11193639.png"
+    ]
+  },
+  "warnings": [
+    "Source dataset had duplicated entries across train/val splits.",
+    "Patient boxes overlapped action boxes and were removed in the refined dataset.",
+    "These classes still have very few labeled boxes: sleep, sit, shake, stand_up, vomit, eat, fall",
+    "Split 'val' is missing these classes: sleep, shake, stand_up, vomit, eat, fall",
+    "Split 'test' is missing these classes: sleep, lying, shake, vomit, eat, fall"
+  ],
+  "duplicates": [
+    {
+      "key": "benh-tam-than-11193639",
+      "existing_split": "train",
+      "duplicate_split": "val"
+    },
+    {
+      "key": "benh-vien-quan-2-dat-chung-nhan-quoc-te-chay-than-nhan-tao-2_usay.jpg",
+      "existing_split": "train",
+      "duplicate_split": "val"
+    },
+    {
+      "key": "bv-17363231803731453639057",
+      "existing_split": "train",
+      "duplicate_split": "val"
+    },
+    {
+      "key": "ChatGPT Image 10_00_30 8 thg 6, 2026 (1)",
+      "existing_split": "train",
+      "duplicate_split": "val"
+    },
+    {
+      "key": "ChatGPT Image 10_00_31 8 thg 6, 2026 (2)",
+      "existing_split": "train",
+      "duplicate_split": "val"
+    },
+    {
+      "key": "ChatGPT Image 10_00_31 8 thg 6, 2026 (3)",
+      "existing_split": "train",
+      "duplicate_split": "val"
+    },
+    {
+      "key": "ChatGPT Image 10_00_32 8 thg 6, 2026 (4)",
+      "existing_split": "train",
+      "duplicate_split": "val"
+    },
+    {
+      "key": "ChatGPT Image 10_00_32 8 thg 6, 2026 (5)",
+      "existing_split": "train",
+      "duplicate_split": "val"
+    },
+    {
+      "key": "ChatGPT Image 10_00_33 8 thg 6, 2026 (6)",
+      "existing_split": "train",
+      "duplicate_split": "val"
+    },
+    {
+      "key": "ChatGPT Image 10_00_33 8 thg 6, 2026 (7)",
+      "existing_split": "train",
+      "duplicate_split": "val"
+    },
+    {
+      "key": "ChatGPT Image 10_00_34 8 thg 6, 2026 (8)",
+      "existing_split": "train",
+      "duplicate_split": "val"
+    },
+    {
+      "key": "ChatGPT Image 10_00_35 8 thg 6, 2026 (10)",
+      "existing_split": "train",
+      "duplicate_split": "val"
+    },
+    {
+      "key": "ChatGPT Image 10_00_35 8 thg 6, 2026 (9)",
+      "existing_split": "train",
+      "duplicate_split": "val"
+    },
+    {
+      "key": "danh-sach-benh-vien-quan-2-va-phong-kham-tu-dia-chi-review-2",
+      "existing_split": "train",
+      "duplicate_split": "val"
+    },
+    {
+      "key": "screenshot-2026-05-01-at-174706-17776325190151471778453",
+      "existing_split": "train",
+      "duplicate_split": "val"
+    }
+  ]
+}

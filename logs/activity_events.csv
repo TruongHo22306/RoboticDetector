@@ -1,0 +1,2 @@
+timestamp,frame_index,event,activity,confidence,inside_bed,source_label
+2026-06-18T20:19:28,1,activity_changed,no_patient,0.0000,False,none

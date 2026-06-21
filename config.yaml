@@ -1,0 +1,15 @@
+path: D:/Thesis/data
+
+train: images/train
+val: images/val
+
+names:
+  0: patient
+  1: sleep
+  2: sit
+  3: lying
+  4: shake
+  5: stand_up
+  6: vomit
+  7: eat
+  8: fall

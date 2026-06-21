@@ -1,0 +1,25 @@
+model_path: runs/detect/train-4/weights/best.pt
+source: 0
+imgsz: 416
+conf: 0.35
+iou: 0.45
+device: cpu
+camera_width: 640
+camera_height: 480
+camera_fps: 20
+display: true
+frame_skip: 1
+smoothing_window: 8
+critical_confirmation_frames: 3
+bed_exit_confirmation_frames: 4
+event_cooldown_seconds: 5.0
+bed_zone:
+  - 0.18
+  - 0.16
+  - 0.82
+  - 0.95
+record_output:
+event_log: logs/activity_events.csv
+alert_frame_dir: alerts
+save_alert_frames: true
+fallback_posture_inference: true
