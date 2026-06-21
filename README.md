@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# RoboticDetector
-This project is about the development of the real-time monitoring system using Python, where the detection will be made using YOLOv8, webcam, and Raspberry Pi 4 that includes standing, sitting, lying down, getting out of bed, eating, convulsion, and fall events.
-=======
 # Bedside Patient Activity Recognition
 
 This project turns the trained YOLOv8 model in this folder into a real-time bedside activity monitor that can run from a USB webcam on a Raspberry Pi 4 or a normal PC.
